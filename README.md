@@ -7,7 +7,8 @@ A rover's position and location are represented by a combination of x and y coor
 In order to control a rover, NASA sends a simple string of letters. The possible letters are 'L', 'R' and 'M'. 'L' and 'R' makes the rover spin 90 degrees left or right respectively, without moving from its current spot. 'M' means move forward one grid point and maintain the same heading.
 Assume that the square directly North from (x, y) is (x, y+1).
 
-Additional Information
+Additional Information:
+
 It is assumed that the first action is to define the upper-right coordinates (5, 5) of the Plateau.
 Once completed, rover objects can be deployed within the plateau. Each rover should be able to take a series of commands following the simple letter commands outlined above.
 In the test we will be providing a movements.csv, this file will outline each rover and it’s predefined movements, this information should be sent to the plateau to automate the process of mapping the surroundings.
